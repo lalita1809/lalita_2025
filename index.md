@@ -165,12 +165,5 @@ My journey starts here Lalita. -Lalita
     // adjust sprite size for high pixel density devices
     const scale = window.devicePixelRatio;
     const sprite = document.querySelector(".sprite");
-    sprite.style.transform = `scale(${0.2 * scale})`;
-    mario.startResting();
-  });
-
-</script>
-
-## Investing in Your Technical Future
-
+   
 > 
