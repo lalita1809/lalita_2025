@@ -9,13 +9,8 @@ My journey starts here Lalita. -Lalita
 
 
   
-  .sprite {
-    height: {{pixels}}px;
-    width: {{pixels}}px;
-    background-image: url('{{sprite_file}}');
-    background-repeat: no-repeat;
-  }
-
+  
+  
   /*background position of sprite element
   */
   #mario {
