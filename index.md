@@ -11,9 +11,7 @@ My journey starts here Lalita. -Lalita
   
   
   
-  /*background position of sprite element
-  */
-  #mario {
+  
     background-position: calc({{animations[0].col}} * {{pixels}} * -1px) calc({{animations[0].row}} * {{pixels}}* -1px);
   }
 </style>
