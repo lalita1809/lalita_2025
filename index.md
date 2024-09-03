@@ -5,16 +5,14 @@ description: Home Page
 hide: true
 ---
 
-My journey starts here Lalita. -Lalita
+Hi I am Lalita, and my journey starts here!
 
 
   
   
   
   
-    background-position: calc({{animations[0].col}} * {{pixels}} * -1px) calc({{animations[0].row}} * {{pixels}}* -1px);
-  }
-</style>
+  
 
 <!--- Embedded executable code--->
 <script>
