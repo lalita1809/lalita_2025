@@ -18,9 +18,16 @@ I am a senior at Del Norte highschool. I love going to the beach, hangingout wit
 ![This is where I was born](image-3.png)
 
 
-**This is a photo of my friend and I at the beach
+**I am Indian**
+
+
+![I am indian](image-7.png)
+
+
+
+**This is a photo of my friend and I at the beach**
+
+
 ![**This is a photo of my friend and I at the beach**](image-6.png)
 
-**I am Indian**
-![I am indian](image-7.png)
 
