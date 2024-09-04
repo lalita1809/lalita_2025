@@ -30,7 +30,8 @@ var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
         {"flag": "b/b9/Flag_of_Oregon.svg", "greeting": "Hi", "description": "Oregon - 9 years"},
         {"flag": "b/be/Flag_of_England.svg", "greeting": "Alright mate", "description": "England - 2 years"},
         {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"},
-    ]; </script>
+   ] ; 
+   </script>
 
 
 
