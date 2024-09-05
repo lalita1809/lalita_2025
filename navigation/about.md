@@ -44,10 +44,10 @@ I am a senior at Del Norte highschool. I love going to the beach, hangingout wit
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "Heyyy": "I moved here when I was 9 years old"},
-        {"flag": "a/ac/Flag_of_Indiana.svg", "Howdy": "I was born in Indiana", "description": "I lived in Indiana for 2 years"},
-        {"flag": "4/41/Flag_of_India.svg", "Namaste": "My family is from here(specifcally from south india)", "description": "I try visiting India evcery 2-3 years to see mt family there"},
-        {"flag": "9/9d/Flag_of_Arizona.svg", "Hello from the heat": "I lived in Arizona", "description": "I lived there for 6.5 years, and I wasn't the biggest fan of the heat"},
+        {"flag": "0/01/Flag_of_California.svg", "greeting": "HEYYYYY", "description": "I loved here when I was 9 years old and have lived here ever since"},
+        {"flag": "a/ac/Flag_of_Indiana.svg", "greeting":"Howdy" , "description": "I was born in Indiana and I lived in Indiana for 2 years"},
+        {"flag": "4/41/Flag_of_India.svg", "greeting": "Namaste", "description": "I try visiting India every 2-3 years to see my family there"},
+        {"flag": "9/9d/Flag_of_Arizona.svg", "Namaste":"Hello from the heat", "description": "I lived there for 6.5 years, and I wasn't the biggest fan of the heat"},
     ]; 
     
     // 3a. Consider how to update style count for size of container
