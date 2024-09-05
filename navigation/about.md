@@ -12,17 +12,6 @@ I am a senior at Del Norte highschool. I love going to the beach, hangingout wit
 
 ![These are some of my favorite TV shows](image-4.png)
 
-
-**This is where I was born**
-
-![This is where I was born](image-3.png)
-
-
-**I am Indian**
-
-
-![I am indian](image-7.png)
-
 <style>
     /* Style looks pretty compact, trace grid-container and grid-item in the code */
     .grid-container {
@@ -55,10 +44,10 @@ I am a senior at Del Norte highschool. I love going to the beach, hangingout wit
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
-        {"flag": "b/b9/Flag_of_Oregon.svg", "greeting": "Hi", "description": "Oregon - 9 years"},
-        {"flag": "b/be/Flag_of_England.svg", "greeting": "Alright mate", "description": "England - 2 years"},
-        {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"},
+        {"flag": "0/01/Flag_of_California.svg", "Heyyy": "I moved here when I was 9 years old"},
+        {"flag": "a/ac/Flag_of_Indiana.svg", "Howdy": "I was born in Indiana", "description": "I lived in Indiana for 2 years"},
+        {"flag": "4/41/Flag_of_India.svg", "Namaste": "My family is from here(specifcally from south india)", "description": "I try visiting India evcery 2-3 years to see mt family there"},
+        {"flag": "9/9d/Flag_of_Arizona.svg", "": "I lived in Arizona", "description": "I lived there for 6.5 years, and I wasn't the biggest fan of the heat"},
     ]; 
     
     // 3a. Consider how to update style count for size of container
