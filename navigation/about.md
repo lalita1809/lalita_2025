@@ -15,9 +15,9 @@ I am a senior at Del Norte highschool. I love going to the beach, hangingout wit
 **This is my favorite TV show**
 
 
-![These are some of my favorite TV shows](image-4.png)  
 
-<img scr = "{{site.baseurl}}/images/notebooks/image.png" alt = "friends">
+<img src = "{{site.baseurl}}/images/notebooks/image copy.png" alt = "the office">
+<img src= "{{site.baseurl}}/images/notebooks/image.png" alt = "friends">
 
 <style>
     /* Style looks pretty compact, trace grid-container and grid-item in the code */
