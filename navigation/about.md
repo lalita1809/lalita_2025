@@ -7,6 +7,12 @@ permalink: /about/
 **Hi I am Lalita!**
 I am a senior at Del Norte highschool. I love going to the beach, hangingout with my friends, I love stitching and reading. I love watching new movies and new tv shows/sitcoms. 
 
+<span class="bike-emoji">🚴‍♂️</span> I really love to bike with my uncle and aunt on different trails, whenever they visit California or whenever I go to Colorado to see them. 
+
+<spam class = "swimming"><span> I really love to go swimming espcially at the beach. 
+
+
+
 
 
 **This is my favorite TV show**
