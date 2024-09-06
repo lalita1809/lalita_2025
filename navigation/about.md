@@ -92,7 +92,7 @@ I am a senior at Del Norte highschool. I love going to the beach, hangingout wit
 **This is a photo of my friend and I at the beach**
 
 
-<img src ="image-8.png" alt="my friend and I at the beach"
+![alt text](image-8.png) 
 
 
 
