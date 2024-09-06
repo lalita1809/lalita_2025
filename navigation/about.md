@@ -9,9 +9,6 @@ I am a senior at Del Norte highschool. I love going to the beach, hangingout wit
 
 <span class="bike-emoji">🚴‍♂️</span> I really love to bike with my uncle and aunt on different trails, whenever they visit California or whenever I go to Colorado to see them. 
 
-<spam class = "swimming"><span> I really love to go swimming espcially at the beach. 
-
-
 
 
 
