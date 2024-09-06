@@ -15,7 +15,7 @@ I am a senior at Del Norte highschool. I love going to the beach, hangingout wit
 **This is my favorite TV show**
 
 
-![These are some of my favorite TV shows](image-4.png)
+![These are some of my favorite TV shows](image-4.png)   
 
 <style>
     /* Style looks pretty compact, trace grid-container and grid-item in the code */
@@ -92,6 +92,7 @@ I am a senior at Del Norte highschool. I love going to the beach, hangingout wit
 **This is a photo of my friend and I at the beach**
 
 
-![alt text](image-8.png)
+<img src ="image-8.png" alt="my friend and I at the beach"
+
 
 
