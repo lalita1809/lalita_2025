@@ -12,12 +12,15 @@ I am a senior at Del Norte highschool. I love going to the beach, hangingout wit
 🏊‍♀️ I love to go swimming at the beach, with my friends and family. I also used to do competitive swim!
 
 
-**This is my favorite TV show**
+**These are my favorite TV show**
 
 
 
 <img src = "{{site.baseurl}}/images/notebooks/image copy.png" alt = "the office">
 <img src= "{{site.baseurl}}/images/notebooks/image.png" alt = "friends">
+<img src = "{{site.baseurl}}/images/notebooks/image copy 4.png" alt = "modern family">
+<img src = "{{site.baseurl}}/images/notebooks/image copy 3.png" alt = "parks and rec">
+
 
 <style>
     /* Style looks pretty compact, trace grid-container and grid-item in the code */
