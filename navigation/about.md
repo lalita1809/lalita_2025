@@ -101,13 +101,13 @@ permalink: /about/
 ### **These are photos of my friends and I**
 
 <div class="image-gallery">
-<img src = "{{site.baseurl}}/images/notebooks/image copy 11.png" alt = "at the beach!">
-<img src = "{{site.baseurl}}/images/notebooks/image copy 12.png" alt = "with my friends!">
-<img src = "{{site.baseurl}}/images/notebooks/image copy 13.png" alt = "with my friends!">
-<img src = "{{site.baseurl}}/images/notebooks/image copy 14.png" alt = "with my friends!">
+<img src = "{{site.baseurl}}/images/notebooks/image copy 11.png" alt = "at the beach!" width = "340" height = "200">
+<img src = "{{site.baseurl}}/images/notebooks/image copy 12.png" alt = "with my friends!" width = "340" height = "200">
+<img src = "{{site.baseurl}}/images/notebooks/image copy 13.png" alt = "with my friends!" width = "340" height = "200">
+<img src = "{{site.baseurl}}/images/notebooks/image copy 14.png" alt = "with my friends!" width = "340" height = "200">
 </div>
 
-<body style = "background-color:pink;"> 
+<body style ="background-color:pink;">
 
 
 

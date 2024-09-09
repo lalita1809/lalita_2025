@@ -5,11 +5,20 @@ description: Home Page
 hide: true
 ---
 
-Hi I am Lalita, and my journey starts here!
+<h3 style = "color:White;"> Hi I am Lalita, and my journey starts here! </h3>
+
+<h3 style = "color:White;"> Best movie watches!</h3>
 
 
+<a href="https://www.imdb.com/title/tt5083738/">the favorite</a>
+
+<a href="https://www.imdb.com/title/tt4925292/?ref_=hm_tpks_tt_i_3_pd_tp1_pbr_ic">lady bird</a>
+
+<a href = "https://www.imdb.com/title/tt3783958/?ref_=hm_tpks_tt_t_2_pd_tp1_pbr_ic">la la land</a>
+
+<a href = "https://www.imdb.com/title/tt0947798/?ref_=hm_tpks_tt_t_3_pd_tp1_pbr_ic"> black swan</a>
   
-  
+<body style = "background-color:black;">
   
   
   
