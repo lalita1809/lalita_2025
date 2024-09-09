@@ -157,4 +157,3 @@ Hi I am Lalita, and my journey starts here!
     const scale = window.devicePixelRatio;
     const sprite = document.querySelector(".sprite");
    
-> 

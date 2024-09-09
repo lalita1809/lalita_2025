@@ -2,17 +2,19 @@
 layout: page
 title: About
 permalink: /about/
+
 ---
+<h1>Hi I am Lalita! </h1>
+### I am a senior at Del Norte highschool!
 
-**Hi I am Lalita!**
-I am a senior at Del Norte highschool. I love going to the beach, hangingout with my friends, I love stitching and reading. I love watching new movies and new tv shows/sitcoms. 
+<h3> <span class="bike-emoji">🚴‍♂️</span> I really love to bike with my uncle and aunt on different trails, whenever they visit California or whenever I go to Colorado to see them. </h3>
 
-<span class="bike-emoji">🚴‍♂️</span> I really love to bike with my uncle and aunt on different trails, whenever they visit California or whenever I go to Colorado to see them. 
+<h3> 🏊‍♀️ I love to go swimming at the beach, with my friends and family. I also used to do competitive swim! </h3>
 
-🏊‍♀️ I love to go swimming at the beach, with my friends and family. I also used to do competitive swim!
+<h3> &#x1F9F5; I love stitching and I have started stitching clothes, and bags, and art pieces since middle school! </h3>
 
 
-**These are my favorite TV show**
+<h3> These are my favorite TV show** </h3>
 
 
 
@@ -21,6 +23,8 @@ I am a senior at Del Norte highschool. I love going to the beach, hangingout wit
 <img src = "{{site.baseurl}}/images/notebooks/image copy 4.png" alt = "modern family">
 <img src = "{{site.baseurl}}/images/notebooks/image copy 3.png" alt = "parks and rec">
 
+
+### **Places I have lived!**
 
 <style>
     /* Style looks pretty compact, trace grid-container and grid-item in the code */
@@ -57,7 +61,7 @@ I am a senior at Del Norte highschool. I love going to the beach, hangingout wit
         {"flag": "0/01/Flag_of_California.svg", "greeting": "HEYYYYY", "description": "I loved here when I was 9 years old and have lived here ever since"},
         {"flag": "a/ac/Flag_of_Indiana.svg", "greeting":"Howdy" , "description": "I was born in Indiana and I lived in Indiana for 2 years"},
         {"flag": "4/41/Flag_of_India.svg", "greeting": "Namaste", "description": "I try visiting India every 2-3 years to see my family there"},
-        {"flag": "9/9d/Flag_of_Arizona.svg", "Namaste":"Hello from the heat", "description": "I lived there for 6.5 years, and I wasn't the biggest fan of the heat"},
+        {"flag": "9/9d/Flag_of_Arizona.svg", "greeting":"Hello from the heat", "description": "I lived there for 6.5 years, and I wasn't the biggest fan of the heat"},
     ]; 
     
     // 3a. Consider how to update style count for size of container
@@ -94,10 +98,16 @@ I am a senior at Del Norte highschool. I love going to the beach, hangingout wit
 
 
 
-**This is a photo of my friend and I at the beach**
+### **These are photos of my friends and I**
 
+<div class="image-gallery">
+<img src = "{{site.baseurl}}/images/notebooks/image copy 11.png" alt = "at the beach!">
+<img src = "{{site.baseurl}}/images/notebooks/image copy 12.png" alt = "with my friends!">
+<img src = "{{site.baseurl}}/images/notebooks/image copy 13.png" alt = "with my friends!">
+<img src = "{{site.baseurl}}/images/notebooks/image copy 14.png" alt = "with my friends!">
+</div>
 
-![alt text](image-8.png) 
+<body style = "background-color:pink;"> 
 
 
 
