@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-
+comments: true
 ---
 <h1>Hi I am Lalita! </h1>
 ### I am a senior at Del Norte highschool!
@@ -111,3 +111,10 @@ permalink: /about/
 
 
 
+<script src="https://utteranc.es/client.js"
+        repo="lalita_2025"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>

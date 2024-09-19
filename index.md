@@ -4,6 +4,7 @@ title: Student Home
 description: Home Page
 hide: true
 ---
+{% include nav/home.html %}
 
 <h3 style = "color:White;"> Hi I am Lalita, and my journey starts here! </h3>
 
@@ -20,7 +21,7 @@ hide: true
   
 <body style = "background-color:black;">
   
-  
+
   
 
 <!--- Embedded executable code--->
