@@ -112,8 +112,9 @@ comments: true
 
 
 <script src="https://utteranc.es/client.js"
-        repo="lalita_2025"
-        issue-term="pathname"
+        repo="lalita1809/lalita_2025"
+        issue-term="title"
+        label="utterances"
         theme="github-light"
         crossorigin="anonymous"
         async>
