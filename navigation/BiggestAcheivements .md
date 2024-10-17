@@ -108,7 +108,7 @@ permalink: /Biggest Achievements/
 
 <h2><span class="emoji">⭐</span> My Coding Achievements</h2>
 <ul>
-    <li><span class="highlight">First Time Coding:</span> For my first big coding accomplishment I did was making my home page, learning how to use HTML in my about page and .</li>
+    <li><span class="highlight">First Time Coding:</span> For my first big coding accomplishment I did was making my home page, learning how to use HTML in my about page.</li>
     <li><span class="highlight">GitHub Playground:</span> a more thorough exploration of Python and JavaScript that will allow me to experiment and learn more dynamically.</li>
     <li><span class="highlight">Frontend Mastery:</span> Through experimenting, I learned new methods to build on prior knowledge and produce useful, real-world applications.</li>
 </ul>
