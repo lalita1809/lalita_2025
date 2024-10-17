@@ -190,3 +190,12 @@ permalink: /summary of units/
         </tr>
     </tbody>
 </table>
+
+<script src="https://utteranc.es/client.js"
+        repo="lalita1809/lalita_2025"
+        issue-term="title"
+        label="utterances"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
