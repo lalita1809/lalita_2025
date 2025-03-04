@@ -139,7 +139,7 @@ permalink: /snake/
         // Draw snake with emoji
         for (let i = 0; i < snake.length; i++) {
             ctx.font = "20px Arial";  // Set font size to match the grid
-            ctx.fillText("🐍", snake[i].x, snake[i].y + box);  // Adjust the y-offset slightly for better alignment
+            ctx.fillText("🐌", snake[i].x, snake[i].y + box);  // Adjust the y-offset slightly for better alignment
         }
 
         // Draw food
