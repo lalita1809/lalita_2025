@@ -273,4 +273,5 @@ Each pixel stores color data using RGB (or RGBA), forming a mosaic of color that
 
 ### Homework Link Submission: 
 
-<a href = "https://docs.google.com/forms/d/e/1FAIpQLSdmi_y0JAKd6qFcDFCSetfeDUEI4d4XfqWo6Y292O7B1oYQpg/viewform?usp=header/"
+[Google Form Link](https://docs.google.com/forms/d/e/1FAIpQLSdmi_y0JAKd6qFcDFCSetfeDUEI4d4XfqWo6Y292O7B1oYQpg/viewform?usp=header)
+
