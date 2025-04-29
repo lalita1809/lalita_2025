@@ -210,34 +210,123 @@ Each pixel stores color data using RGB (or RGBA), forming a mosaic of color that
 
 <h2 style="color: #BAE1FF;">🔐 5️⃣ Base64: Turning Binary into Text</h2>
 
-<h3 style="color: #D5BAFF;">What is Base64?</h3>
+<h2 style="color: #BAE1FF;">🔍 What is Base64?</h2>
 
-<p>Base64 is a way to encode binary data (like an image file) into a plain-text format using only letters, numbers, and a few symbols.</p>
-<p>This makes it safe to embed in HTML, CSS, or JSON—without breaking anything.</p>
+<div style="font-size: 1.2em; color: #fefefe;">
 
-<h3 style="color: #FFB3BA;">Why Use It?</h3>
+<p><strong>Base64</strong> is a way to encode <strong>binary data</strong> (like images or files) into a <strong>text-based format</strong> using <strong>64 characters</strong>:  
+- <strong>A–Z</strong>, <strong>a–z</strong>, <strong>0–9</strong>, <strong>+</strong>, and <strong>/</strong>  
+It also uses <strong>=</strong> for padding at the end when needed.</p>
 
-<ul>
-  <li>📦 <strong>Embed images directly in websites</strong> (no separate files!)</li>
-  <li>🌐 <strong>Safer for sending across the internet</strong></li>
-  <li>📁 <strong>Makes code more self-contained</strong></li>
-</ul>
-
-<h3 style="color: #FFDFBA;">🔠 Base64 Encoding in Action</h3>
-
-<ol>
-  <li><strong>Convert each character to binary:</strong>
-    <ul>
-      <li><code>H</code> = ASCII 72 → <code>01001000</code></li>
-      <li><code>i</code> = ASCII 105 → <code>01101001</code></li>
-    </ul>
-  </li>
-  <li><strong>Join the binary:</strong> <code>0100100001101001</code></li>
-  <li><strong>Split into 6-bit chunks:</strong> <code>010010</code>, <code>000110</code>, <code>1001</code> (pad with zeros)</li>
-  <li><strong>Look up in the Base64 alphabet:</strong> Result: <code>SGl=</code></li>
-</ol>
+<h3>📦 Why do we need it?</h3>
+<p>Many systems (like emails, URLs, and web APIs) can only handle <strong>text</strong>, not raw binary. Base64 lets us <strong>safely send binary data</strong> through these systems.</p>
 
 <hr />
+
+<h2 style="color: #D5BAFF;">🧠 How Base64 Works (Conceptually)</h2>
+
+<ol>
+  <li><strong>Binary to Text</strong>: Every character you type is stored as <strong>binary</strong> (0s and 1s).</li>
+  <li>Base64 groups the binary into <strong>chunks of 6 bits</strong>.</li>
+  <li>Each 6-bit chunk is mapped to <strong>one of 64 characters</strong> from the Base64 alphabet.</li>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th>Binary Bits</th>
+      <th>Base64 Char</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><code>000000</code></td><td>A</td></tr>
+    <tr><td><code>000001</code></td><td>B</td></tr>
+    <tr><td>...</td><td>...</td></tr>
+    <tr><td><code>111111</code></td><td>/</td></tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 style="color: #FFB3BA;">🔣 Base64 Character Set</h2>
+
+<p>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/</p>
+
+<hr />
+
+<h2 style="color: #FFDFBA;">🔄 Encoding Example</h2>
+
+<p>Let's encode the word <strong><code>Hi</code></strong>.</p>
+
+<h3>Step 1: Convert characters to binary (ASCII)</h3>
+<ul>
+  <li><code>H</code> = 72 = <code>01001000</code></li>
+  <li><code>i</code> = 105 = <code>01101001</code></li>
+</ul>
+
+<p><strong>Binary string</strong> = <code>0100100001101001</code></p>
+
+<h3>Step 2: Group into 6-bit chunks</h3>
+<p><code>010010</code> <code>000110</code> <code>1001</code> (last group padded with <code>00</code>)</p>
+<p><strong>Final chunks:</strong> <code>010010</code>, <code>000110</code>, <code>100100</code></p>
+
+<h3>Step 3: Convert each 6-bit chunk to decimal</h3>
+<ul>
+  <li><code>010010</code> = 18</li>
+  <li><code>000110</code> = 6</li>
+  <li><code>100100</code> = 36</li>
+</ul>
+
+<h3>Step 4: Map to Base64 characters</h3>
+<ul>
+  <li>18 = <strong>S</strong></li>
+  <li>6 = <strong>G</strong></li>
+  <li>36 = <strong>k</strong></li>
+</ul>
+
+<p>➡️ <strong>Base64 encoded:</strong> <code>SGk=</code></p>
+<p><em>(<code>=</code> is added as padding.)</em></p>
+
+<hr />
+
+<h2 style="color: #BAFFC9;">🎯 POPCORN HACK: Decode This!</h2>
+
+<p><strong>Question:</strong><br>
+What does this Base64 string decode to?  
+<code>U1Q=</code></p>
+
+<details>
+<summary>💡 Answer</summary>
+<p><code>U1Q=</code> → <strong>ST</strong><br>
+- U = 20 → <code>010100</code><br>
+- 1 = 53 → <code>110101</code><br>
+- Q = 16 → <code>010000</code><br>
+Together = <code>01010011 01010100</code> = ASCII for "ST"</p>
+</details>
+
+<hr />
+
+<h2 style="color: #BAE1FF;">🛠️ Real-World Applications</h2>
+
+<ul>
+  <li><strong>Web development</strong>: Embedding images or fonts as Base64 strings in HTML/CSS.</li>
+  <li><strong>Email attachments</strong>: MIME encoding.</li>
+  <li><strong>APIs</strong>: Passing images or files in JSON payloads.</li>
+  <li><strong>Basic authentication</strong>: Username and password are Base64-encoded.</li>
+</ul>
+
+<hr />
+
+<h2 style="color: #FFFFBA;">🔚 Summary</h2>
+
+<ul>
+  <li>✅ Base64 is a way to encode binary data into text.</li>
+  <li>✅ It uses 6-bit chunks and maps to 64 characters.</li>
+  <li>✅ Padding (<code>=</code>) is added when the data doesn't divide evenly.</li>
+  <li>✅ It's great for transmitting data safely over systems that only handle text.</li>
+</ul>
+
+</div>
 
 <h2 style="color: #FFFFBA;">📚 9️⃣ Quick Recap</h2>
 
