@@ -105,6 +105,7 @@ permalink: /thefuture/
 <h2>Our Engineering Project</h2>
 <p>This trimester, I also had the opportunity to work on a collaborative engineering project: a web-based platform designed to help students explore engineering fields through interest-based matching and a project tracker backed by a parts and project database. Although the project didn’t work out as well as we had hoped, I’m proud of the effort my team put into it and I hope future students can build on this idea and make it even better.</p>
 
+<a href = "https://lalita1809.github.io/lalita_2025/2025/03/18/Team-Teach-Binary_IPYNB_2_.html" style="display:inline-block; background-color:#ffb6c1 ; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; font-weight:bold;">Engineering Article</a>
 
 </section>
 
